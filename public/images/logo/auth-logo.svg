@@ -1,0 +1,12 @@
+<svg width="90" height="90" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Warehouse structure (walls and roof) -->
+  <path d="M2 20H22V8L18 4H6L2 8V20Z" stroke="currentColor" stroke-width="2"/>
+  <!-- Shelves with boxes -->
+  <rect x="6" y="10" width="4" height="4" stroke="currentColor" stroke-width="1.5"/>
+  <rect x="11" y="10" width="4" height="4" stroke="currentColor" stroke-width="1.5"/>
+  <rect x="16" y="10" width="4" height="4" stroke="currentColor" stroke-width="1.5"/>
+  <rect x="6" y="15" width="4" height="4" stroke="currentColor" stroke-width="1.5"/>
+  <rect x="11" y="15" width="4" height="4" stroke="currentColor" stroke-width="1.5"/>
+  <!-- Door -->
+  <rect x="9" y="16" width="6" height="4" fill="currentColor"/>
+</svg>

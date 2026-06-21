@@ -1,0 +1,16 @@
+services:
+  warehouse-frontend:
+    container_name: warehouse-frontend
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: sh -c "npm run dev"
+    ports:
+      - "2323:2323"
+    environment:
+      - NODE_ENV=development
+      - PORT=2323
+    volumes:
+      - .:/app
+      - /app/node_modules
+    working_dir: /app
